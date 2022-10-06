@@ -4,7 +4,7 @@ import static jakarta.json.Json.createObjectBuilder;
 
 import jakarta.json.JsonObject;
 
-class App {
+public class App {
 
     public static void main(String[] args) {
         JsonObject deliveryEvent = createObjectBuilder()
